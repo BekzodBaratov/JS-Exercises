@@ -7,42 +7,36 @@
 // let delfin3 = Number(prompt("3-bellashuv Delfinlar Jamoasi to`plagan ball:"));
 // let koala3 = Number(prompt("3-bellashuv Koalalar Jamoasi to`plagan ball:"));
 
-// // let delfinlar = (delfin1 + delfin2 + delfin3) / 3;
-// // let koalalar = (koala1 + koala2 + koala3) / 3;
-
-// let delfin1 = 16;
-// let delfin2 = 16;
-// let delfin3 = 16;
-// let koala1 = 43;
-// let koala2 = 43;
-// let koala3 = 43;
-
-// let calcAverage1 = (delfin1, delfin2, delfin3) => {
-//   let urtachaDelfinlar = (delfin1 + delfin2 + delfin3) / 3;
-//   return urtachaDelfinlar;
+// let funcUr = function (qiymat1, qiymat2, qiymat3) {
+//   return (qiymat1 + qiymat2 + qiymat3) / 3;
 // };
-// let calcAverage2 = (koala1, koala2, koala3) => {
-//   let urtachaKoalalar = (koala1 + koala2 + koala3) / 3;
-//   return urtachaKoalalar;
-// };
+// console.log(funcUr(delfin1, delfin2, delfin3));
+// console.log(funcUr(koala1, koala2, koala3));
 
-// console.log(calcAverage1(delfin1, delfin2, delfin3));
-// console.log(calcAverage2(koala1, koala2, koala3));
+// let winner = function () {
+//   let urtaDel = funcUr(delfin1, delfin2, delfin3);
+//   let urtaKoa = funcUr(koala1, koala2, koala3);
 
-// let checkWinner = function (urtachaDelfinlar, urtachaKoalalar) {
-//   if (2 * urtachaDelfinlar > urtachaKoalalar) {
-//     console.log(
-//       `Koalalar g'laba qozindi (${urtachaDelfinlar} va ${urtachaKoalalar})`
-//     );
-//   } else if (2 * urtachaDelfinlar < urtachaKoalalar) {
-//     console.log("Xechkim g'alaba qozonmadi");
+//   if (urtaDel / 2 > urtaKoa) {
+//     console.log(`Delfinlar jamoasi golib boldi (${urtaDel}, ${urtaKoa})`);
+//   } else if (urtaDel < urtaKoa / 2) {
+//     console.log(`Koalalar jamoasi golib boldi (${urtaDel}, ${urtaKoa})`);
+//   } else {
+//     console.log(`Bu bellashuvda g'olib aniqlanmadi (${urtaDel}, ${urtaKoa})`);
 //   }
 // };
-// console.log(checkWinner());
+// winner();
 
-// 2-topshiriq
-let numFirst= Number(prompt("birinchi raqamni kirit:"));
-let numSecond= Number(prompt("ikkinchi raqamni kirit:"));
-let operator= Number(prompt("Operatorni kiriting (+, -, *, /):"));
+// 2 - topshiriq;
+let numFirst = Number(prompt("birinchi raqamni kirit:"));
+let numSecond = Number(prompt("ikkinchi raqamni kirit:"));
+let operator1 = Number(prompt("Operatorni kiriting (+, -, *, /):"));
 
-let calc=()
+let kalkulyator = function (arg1, arg2, arg3) {
+  switch num:{
+    case Number:
+      
+  }
+};
+
+console.log(kalkulyator(numFirst, numSecond, operator1));

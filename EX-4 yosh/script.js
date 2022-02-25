@@ -15,4 +15,4 @@ console.log(`${oy} oy`);
 console.log(`${kun} kun`);
 console.log(`${soat} soat`);
 console.log(`${minut} minut`);
-console.log(`${sekund} sekundga kiribsiz tabriklayman!!!`);
+console.log(`${sekund} sekundga kiribsiz tabriklaymiz!!!`);

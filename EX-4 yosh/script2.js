@@ -1,22 +1,22 @@
-// let cost = Number(prompt("init shop cost: ($)"));
-// let firstUsluga = cost * 0.2;
-// let secondUsluga = cost * 0.15;
+let cost = Number(prompt("init shop cost: ($)"));
+let firstUsluga = cost * 0.2;
+let secondUsluga = cost * 0.15;
 
-// if (50 > cost) {
-//   alert(` sizning uslugangiz: ${firstUsluga}$
-//   sizning xarajatlaringiz: ${cost - firstUsluga}$
-//   sizning umumiy to'lovingiz: ${cost}$`);
-// } else if (50 <= cost <= 300) {
-//   alert(`sizning uslugangiz: ${secondUsluga}$
-//   sizning xarajatlaringiz: ${cost - secondUsluga}$
-//   sizning umumiy to'lovingiz: ${cost}$`);
-// } else {
-//   alert(`sizning uslugangiz: ${firstUsluga}$
-//   sizning xarajatlaringiz: ${cost - firstUsluga}$
-//   sizning umumiy to'lovingiz: ${cost}$`);
-// }
+if (50 > cost) {
+  alert(` sizning uslugangiz(20%): ${firstUsluga}$
+  sizning xarajatlaringiz: ${cost - firstUsluga}$
+  sizning umumiy to'lov summangiz: ${cost}$`);
+} else if (50 <= cost && cost <= 300) {
+  alert(`sizning uslugangiz(15%): ${secondUsluga}$
+  sizning xarajatlaringiz: ${cost - secondUsluga}$
+  sizning umumiy to'lov summangiz: ${cost}$`);
+} else {
+  alert(`sizning uslugangiz(20%): ${firstUsluga}$
+  sizning xarajatlaringiz: ${cost - firstUsluga}$
+  sizning umumiy to'lov summangiz: ${cost}$`);
+}
 
-// Ternary
+// Ternary;
 // let age = 40;
 // age < 50 ? console.log("yosh ekansiz") : console.log("qaribsiz");
 
