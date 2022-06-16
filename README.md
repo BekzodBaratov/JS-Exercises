@@ -1,3 +1,3 @@
-# JS-Exercises README.md
+# JS-Exercises
 https://bekzodbaratov.github.io/JS-Exercises/
 
